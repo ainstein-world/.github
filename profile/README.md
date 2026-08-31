@@ -1,43 +1,59 @@
+<p align="center">
+  <img src="./assets/ainstein-world-preview.png" alt="Ainstein world preview" width="100%">
+</p>
+
 <h1 align="center">Ainstein</h1>
 
 <p align="center">
-  A game world where learners build real AI, ML, and coding skills through quests, lessons, XP, and progression.
+  An AI learning world where students build real coding, machine learning, and product skills through quests, lessons, projects, and progression.
 </p>
 
 <p align="center">
-  <a href="#what-were-building">What we're building</a>
+  <a href="https://ainstein-alpha.vercel.app"><strong>Open the App</strong></a>
   ·
-  <a href="#inside-the-world">Inside the world</a>
+  <a href="https://github.com/ainstein-world/ainstein-app">Main Repository</a>
   ·
-  <a href="#for-contributors">For contributors</a>
+  <a href="#repository-map">Repository Map</a>
+  ·
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
 
-## What we're building
+## What We Are Building
 
-Ainstein turns learning AI and software engineering into an explorable RPG.
-Instead of treating progress as a checklist, Ainstein gives every learner a
-character, a dashboard, a world map, quests, portals, skill growth, streaks,
-badges, and boss challenges.
+Ainstein turns technical learning into a living game world. Instead of moving
+through disconnected lessons, learners step into a guided environment with a
+character, world map, dashboard, quests, streaks, badges, skill growth, and
+project-based challenges.
 
-The goal is simple: make serious technical learning feel alive enough to keep
-coming back to.
+The mission is to help learners go from curiosity to capability by making
+serious AI and software engineering practice feel structured, visual, and worth
+returning to.
 
-## Inside the world
+## Product Experience
 
-- **The Realm**: an explorable 3D village where learners enter coding portals,
-  solve lessons, collect coins, and unlock progress.
-- **The Library**: structured curriculum paths such as Python foundations,
-  AI basics, and project-based machine learning.
-- **The System**: the progression layer that tracks XP, levels, ranks, stats,
-  streaks, titles, achievements, and long-term mastery.
-- **Quests and boss fights**: real projects that move learners from beginner
-  coding toward advanced AI engineering.
-- **Personal progression**: one character connects the world, lessons, quests,
-  dashboard, and skill tree into a single learning journey.
+- **Ainstein Realm**: an explorable world for portals, quests, lessons, and
+  progression.
+- **Learner Dashboard**: a home base for XP, level, rank, coins, streaks,
+  skills, titles, and achievements.
+- **Library and Paths**: structured learning paths for Python, AI foundations,
+  machine learning, and project-based practice.
+- **Quests and Boss Challenges**: hands-on projects that turn lessons into
+  applied work.
+- **Progression System**: a persistent layer connecting the learner profile,
+  world activity, skill growth, and mastery.
 
-## Current stack
+## Live Deployment
+
+The current production app is available at:
+
+**[ainstein-alpha.vercel.app](https://ainstein-alpha.vercel.app)**
+
+Deployments are managed from the organization repository
+[`ainstein-app`](https://github.com/ainstein-world/ainstein-app).
+
+## Technology
 
 Ainstein is currently built as a standalone React app backed by Supabase.
 
@@ -47,25 +63,23 @@ Ainstein is currently built as a standalone React app backed by Supabase.
 - Tailwind CSS and reusable UI components
 - Base44 archive tooling for migrated content and assets
 
-## Repository map
+## Repository Map
 
-The organization will grow around a few clear surfaces:
+The organization is split into focused repositories so the product, platform,
+content, and visual direction can evolve cleanly.
 
-- **[ainstein-app](https://github.com/ainstein-world/ainstein-app)**: the
-  learner-facing world, dashboard, lessons, profile, quests, and progression
-  screens.
-- **[ainstein-content](https://github.com/ainstein-world/ainstein-content)**:
-  lessons, quests, archive data, project paths, and authored game metadata.
-- **[ainstein-platform](https://github.com/ainstein-world/ainstein-platform)**:
-  database schema, Supabase migrations, RLS, progression rules, seed scripts,
-  and platform setup.
-- **[ainstein-design](https://github.com/ainstein-world/ainstein-design)**:
-  brand assets, design labs, production prompts, and visual direction.
+| Repository | Purpose |
+| --- | --- |
+| [`ainstein-app`](https://github.com/ainstein-world/ainstein-app) | The learner-facing app: world, dashboard, lessons, profile, quests, and progression screens. |
+| [`ainstein-platform`](https://github.com/ainstein-world/ainstein-platform) | Supabase schema, migrations, RLS policies, progression rules, seed scripts, and platform setup. |
+| [`ainstein-content`](https://github.com/ainstein-world/ainstein-content) | Lessons, quests, learning paths, archive data, authored metadata, and curriculum material. |
+| [`ainstein-design`](https://github.com/ainstein-world/ainstein-design) | Brand assets, design direction, visual prompts, production kits, and experience references. |
 
-## For contributors
+## Contributing
 
-We care about contributions that make Ainstein more useful, more stable, and
-more delightful for learners.
+We care about contributions that make Ainstein more useful, reliable, and
+delightful for learners. The best contributions improve a real learner outcome:
+clarity, momentum, correctness, accessibility, performance, or creative depth.
 
 Good places to help:
 
@@ -77,11 +91,11 @@ Good places to help:
 - Improve accessibility, responsiveness, and onboarding
 - Write tests and documentation for core behavior
 
-Before opening a pull request, please keep changes focused and explain the
-learner outcome. If a change touches progression, auth, stored player state, or
-database rules, include how you tested it.
+Before opening a pull request, keep the change focused and explain the learner
+outcome. If a change touches progression, authentication, stored player state,
+or database rules, include how it was tested.
 
-## Local development
+## Local Development
 
 Most app repositories in this organization follow the same shape:
 
@@ -93,7 +107,7 @@ npm run dev
 Apps that depend on Supabase also need local environment variables and database
 setup instructions from their repository README.
 
-## Principles
+## Operating Principles
 
 - Learning should feel earned, not assigned.
 - Progression should reflect real work, not inflated numbers.
@@ -105,5 +119,5 @@ setup instructions from their repository README.
 ---
 
 <p align="center">
-  Learn by building. Level by finishing. Grow one quest at a time.
+  <strong>Learn by building. Level by finishing. Grow one quest at a time.</strong>
 </p>
