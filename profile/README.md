@@ -51,14 +51,16 @@ Ainstein is currently built as a standalone React app backed by Supabase.
 
 The organization will grow around a few clear surfaces:
 
-- **App experience**: the learner-facing world, dashboard, lessons, profile,
-  quests, and progression screens.
-- **Curriculum content**: lessons, quests, checkpoints, project paths, and boss
-  challenges.
-- **Platform systems**: auth, persistence, progression rules, data migrations,
-  seeding, media assets, and deployment.
-- **Design system**: components, visual language, animations, audio cues, and
-  interaction patterns that make Ainstein feel like a world.
+- **[ainstein-app](https://github.com/ainstein-world/ainstein-app)**: the
+  learner-facing world, dashboard, lessons, profile, quests, and progression
+  screens.
+- **[ainstein-content](https://github.com/ainstein-world/ainstein-content)**:
+  lessons, quests, archive data, project paths, and authored game metadata.
+- **[ainstein-platform](https://github.com/ainstein-world/ainstein-platform)**:
+  database schema, Supabase migrations, RLS, progression rules, seed scripts,
+  and platform setup.
+- **[ainstein-design](https://github.com/ainstein-world/ainstein-design)**:
+  brand assets, design labs, production prompts, and visual direction.
 
 ## For contributors
 
